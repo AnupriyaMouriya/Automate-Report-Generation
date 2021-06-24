@@ -6,10 +6,8 @@ def automate_report_generation():
 
     # files should be csv format
     result_file_name = 'result-1.csv'
-    result_file_path = r"C:\Users\am26103\OneDrive - ZS\Documents\PSR PROJECT\AMGEN\Release 4 - June " \
-                       r"2021\generate-result"
-    path_of_aggregate_report_name = r"C:\Users\am26103\OneDrive - ZS\Documents\PSR PROJECT\AMGEN\Release 4 - June " \
-                                    r"2021\aggregate-practice.csv "
+    result_file_path = r"path\"
+    path_of_aggregate_report_name = r"path\"
 
     result_file = open(r"{0}\{1}".format(result_file_path, result_file_name), "w")
 
